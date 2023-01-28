@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.movielist {
+  padding: 16px;
+}
+
+.Movie {
+  display: flex;
+  padding: 16px;
+  height: 50vh;
+  border-bottom: 1px solid red;
+}
+
+.movieinfo {
+  text-align: start;
+  padding-left: 16px;
+  color: white;
+}
+
+.image-container {
+  width: auto;
+  height: 100%;
+}
+
+.image {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+
+.Moviedetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.background-image {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+}
+
+.movie-image-contaiener {
+  height: 70vh;
+}
+
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.input-container {
+  padding: 12px;
+}
+.heading {
+  text-align: center;
+}
+
+.login-button {
+  background-color: blue;
+  color: white;
+  border: none
+}
+
+.close-btn {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    background: none;
+    color: white;
+}
+.navbar {
+  background-color: #282c34;
+  position: sticky !important;
+  top: 0 !important;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
